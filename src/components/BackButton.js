@@ -1,5 +1,12 @@
-const BackButton = () => {
-    return <h1>This comp should be a button that when clicked will render out the count and counter compos</h1>
+
+const BackButton = ({ resetCount }) => {
+    return (
+        <div>
+            <h1>Completed</h1>
+            <button onClick={resetCount}>Back Button</button>
+        </div>
+    )
+
 }
 
 export default BackButton
